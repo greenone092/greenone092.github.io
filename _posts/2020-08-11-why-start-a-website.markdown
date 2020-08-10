@@ -8,7 +8,7 @@ There are a few reasons why I am starting this website / blog.
 
 First of all, it's becoming increasingly unsustianable to manage my profile across all social media platforms. The popularity of social media also changes rapidly and should one lose out on popularity, I would inevitably have to switch to another one. I would essentially lose all of the historical posts in the process. It's also annoying for people to have to go through multiple social media pages just to be able to have a clearer understanding or my profile. 
 
-Secondly, a website gives me a lot more flexibility than any form of social media. The content that I could put here is basically unlimited (except the 1Gb limit due to github pages' restrictions). I could type LaTeX, make a long, organised and categorized series of tutorials and guides... This is just impossible to deliver using any other existing social media sites. I could also organise the content with much more flexibility.
+Secondly, it's flexible. The content that I could put here is basically unlimited (except the 1Gb limit due to github pages' restrictions). I could type LaTeX, make a long, organised and categorized series of tutorials and guides... This is just impossible to deliver using any other existing social media sites. I could also organise the content with much more flexibility.
 
 Thirdly, it's portable. Currently, the website is made using jerkyll. Should my web hosting fails or my domain changes, I still have a backup of the code that's written. I could pratically port it everywhere and not worry about any external influences that may bring down this website. 
 
