@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Self-initiated work"
-date:   2020-08-11 01:45:00 +0800
+date:   2020-08-13 00:00:00 +0800
 ---
 
 I have done some expository work over the years at a secondary school level, especially during my presidency at my school's mathematics society. Here are some of them and the challenges faced making them.
