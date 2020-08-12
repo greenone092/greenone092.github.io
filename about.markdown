@@ -5,6 +5,6 @@ permalink: /about/
 order: 1
 ---
 
-Hello! I'm Toby Lam. A secondary school student from Hong Kong. I'm mainly intersted in linear and abstract algebra. I also do some physics and computer science once in a while.
+Hello! I'm Toby Lam. A secondary school student from Hong Kong. I'm mainly intersted in linear and abstract algebra. I also do some physics and computer science.
 
 Here's my [CV]({{ site.url }}/download/CV.pdf) as at August 2020 
