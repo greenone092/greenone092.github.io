@@ -55,7 +55,7 @@ Every input is associated with an output. In essence, no matter how error-prone 
 
 # You can correct an error wrongly.
 
-While this sentence seems counter-intuitive, it is a consequence of the decoding function being a function. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1), m = 1,  e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0), m = 0,  e = (1, 0, 1) $$. It's just less likely that that is the case. Just remember that error correction is never "perfect" without any assumptions.
+While this sentence seems counter-intuitive, it is a consequence of the decoding function being a function. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1)$$ , $$m = 1$$,  $$e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0)$$, $$m = 0$$,  $$e = (1, 0, 1) $$. It's just less likely that that is the case. Just remember that error correction is never "perfect" without any assumptions.
 
 You could also observe this phenonmon more trivially when $$e = (1, 1, 1)$$ as mentioned earlier.
 
