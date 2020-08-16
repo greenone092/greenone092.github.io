@@ -49,11 +49,11 @@ Also note that some **errors can go undetected**. As if $$e = (1, 1, 1) $$, $$C(
 
 After this rundown, there are a few details that needs to be stressed.
 
-# The decoding function is surjective
+# The decoding function is a function.
 
-In essence, no matter how error-prone the received code might seem to be, the decoding function will still try to find the most probable code that could've possibly generataed the received code. You may wonder that in more complicated codes, it's very likely the decoded message is wrong, why do we still bother decoding it even though the chances are so low? The reason is that it might not be possible to ask for any form of external verification. Say that you are trying to play a DVD or read a QR code offline. At that moment, you wouldn't be able to immediatedly ask the original author for verification, all you could do is to decode it to the best of your abilities and take the chance.
+Every input is associated with an output. In essence, no matter how error-prone the received code might seem to be, the decoding function will still try to find the most probable code that could've possibly generataed the received code. You may wonder that in more complicated codes, it's very likely the decoded message is wrong, why do we still bother decoding it even though the chances are so low? The reason is that it might not be possible to ask for any form of external verification. Say that you are trying to play a DVD or read a QR code offline. At that moment, you wouldn't be able to immediatedly ask the original author for verification, all you could do is to decode it to the best of your abilities and take the chance.
 
-# You can correct an error wrongly
+# You can correct an error wrongly.
 
 This is a consequence of the decoding function being surjective. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1), m = 1,  e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0), m = 0,  e = (1, 0, 1) $$. It's just less likely that that is the case.
 
