@@ -13,7 +13,7 @@ I recommend you to read this post after you've finished your first chapter in co
 
 ## The triple repetition code
 
-Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = \{(0) , (1)\} = Z_2$$ [^Z_2]
+Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = \{0 , 1\} = Z_2$$ [^Z_2]
 
 Sadly, the channel is noisy and could sometimes flip the bits that you are sending. To remedy this, you decide to repeat every bit by 3 times. In essence, you are creating an injective projection $$C$$, 
 
@@ -23,8 +23,8 @@ where
 
 $$ 
 \begin{aligned} 
-C : &(0) \rightarrow (0, 0, 0) \\ 
-&(1) \rightarrow (1, 1, 1) 
+C : &0 \rightarrow (0, 0, 0) \\ 
+&1 \rightarrow (1, 1, 1) 
 \end{aligned}
 $$
 
@@ -55,10 +55,10 @@ In essence, no matter how error-prone the received code might seem to be, the de
 
 # You can correct an error wrongly
 
-This is a consequence of the decoding function being surjective. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1), m = (1),  e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0), m = (0),  e = (1, 0, 1) $$. It's just less likely that that is the case.
+This is a consequence of the decoding function being surjective. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1), m = 1,  e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0), m = 0,  e = (1, 0, 1) $$. It's just less likely that that is the case.
 
 You could also observe this phenonmon when $$e = (1, 1, 1)$$ as mentioned earlier.
 
 
-[^Z_2]: I used () to emphaise that they are 1-dimensional vectors. You could treat vectors as coordinates for now. $$Z_2$$ could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
+[^Z_2]: $$Z_2$$ could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
 
