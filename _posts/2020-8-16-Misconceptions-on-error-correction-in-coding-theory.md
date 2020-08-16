@@ -11,7 +11,7 @@ In this post, I want to talk about some of the stuff I wish I had known about er
 
 It's very important that we are discussing about coding theory with QR codes, DVDs or other forms of static information in mind. In these cases, it's impossible to ask the author to verify the message. It's unlike sending messages over the internet, where you could ask the sender to resend their messages should any errors be deteced. As such, even if we detect an error, we still have to figure out a way to correct it to the best of our abilities. 
 
-Hence, during error correction, every possible encoded messages that we recieve, no matter how "error-prone" they may seem on inspection, will be "decoded" to some original message which has the highest probability of giving the encoded message. It's pointless for the algorithm to be able to detect errors but not correct it. 
+Hence every possible encoded messages that we recieve, no matter how "error-prone" they may seem on inspection, will be "decoded" to some original message which has the highest probability of giving the encoded message. It's pointless for the algorithm to be able to detect errors but not correct it. 
 
 # You can correct errors on everything using coding theory
 
