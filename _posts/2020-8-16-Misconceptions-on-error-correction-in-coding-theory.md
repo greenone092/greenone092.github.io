@@ -13,7 +13,7 @@ I recommend you to read this post after you've finished your first chapter in co
 
 ## The triple repetition code
 
-Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = \{0, 1\} = Z_2$$ [^Z_2]
+Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = (0, 1) = Z_2$$ [^Z_2]
 
 Sadly, the channel is noisy and could sometimes flip the bits that you are sending. To remedy this, you decide to repeat every bit by 3 times. In essence, you are creating an injective projection $$C$$, 
 
@@ -23,8 +23,8 @@ where
 
 $$ 
 \begin{aligned} 
-C : &\{0\} \rightarrow \{0, 0, 0\} \\ 
-&\{1\} \rightarrow \{1, 1, 1\} 
+C : &(0) \rightarrow (0, 0, 0) \\ 
+&(1) \rightarrow (1, 1, 1) 
 \end{aligned}
 $$
 
@@ -38,14 +38,14 @@ Obviously, it would be nice if $$D$$ could project all $$C(m) + e$$ to $$m$$ acc
 
 $$ 
 \begin{aligned} 
-D : &\{0, 0, 0\}, \{1, 0, 0\}, \{0, 1, 0\}, \{0, 1, 1\} \rightarrow \{0\} \\ 
-&\{1, 1, 1\}, \{1, 1, 0\}, \{0, 1, 1\}, \{1, 0, 1\} \rightarrow \{1\}  
+D : &(0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 1, 1) \rightarrow (0) \\ 
+&(1, 1, 1), (1, 1, 0), (0, 1, 1), (1, 0, 1) \rightarrow (1)  
 \end{aligned}
 $$
 
 It could be seen that $$ D(C(m)+e)) = m$$ if and only if the number of non-zero bits in $$e$$ is smaller or equal to 1. Hence we call this code to be 1-error correcting.
 
-Also note that some **errors can go undetected**. As if $$e = \{1, 1, 1\} $$, $$C(m) + e$$ will be equal to either $$\{0, 0, 0\}$$ or $$\{1, 1, 1\}$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits. As such, we call this code 2-error detecting.
+Also note that some **errors can go undetected**. As if $$e = (1, 1, 1) $$, $$C(m) + e$$ will be equal to either $$(0, 0, 0)$$ or $$(1, 1, 1)$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits. As such, we call this code 2-error detecting.
 
 After this rundown, there are a few details that needs to be stressed.
 
@@ -55,9 +55,9 @@ In essence, no matter how error-prone the received code might seem to be, the de
 
 # You can correct an error wrongly
 
-This is a consequence of the decoding function being surjective. For example, if $$\{1, 0, 1\}$$ is received, while the decoding function would think that $$C(m) = \{1, 1, 1\}, m = \{1\},  e = \{0, 1, 0\}$$, it's entirely possible that $$C(m) = \{0, 0, 0\}, m = \{0\},  e = \{1, 0, 1\} $$. It's just less likely that that is the case.
+This is a consequence of the decoding function being surjective. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1), m = (1),  e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0), m = (0),  e = (1, 0, 1) $$. It's just less likely that that is the case.
 
-You could also observe this phenonmon when $$e = \{1, 1, 1\}$$ as mentioned earlier.
+You could also observe this phenonmon when $$e = (1, 1, 1)$$ as mentioned earlier.
 
 
 [^Z_2]: It could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
