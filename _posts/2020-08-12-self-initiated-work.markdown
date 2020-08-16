@@ -20,4 +20,4 @@ Here's the [link](https://github.com/greenone092/Latex-Tutorial) to the github r
 
 I've mainly written this at first to help myself remember the syntax involved in LaTeX. However it slowly became a demonstration of the basic features in LaTeX. My vision was for begineers to look through the generated pdfs, spot a feature that they would like to include in their own files, correspond it to the source code and then copy it. (along with any packages it used) 
 
-I usually send this to someone whom I'm introducing LaTeX to. Perhaps after some simplicications, I believe this is quite a good way to show what LaTeX can do concisely and precisely. 
+I usually send this to someone whom I'm introducing LaTeX to. Perhaps with some simplicications, I believe this is quite a good way to show what LaTeX can do concisely and precisely. 
