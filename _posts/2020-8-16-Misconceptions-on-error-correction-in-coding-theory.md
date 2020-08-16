@@ -61,4 +61,4 @@ You could also observe this phenonmon more trivially when $$e = (1, 1, 1)$$ as m
 
 [^Z_2]: $$Z_2$$ could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
 
-[^error]: There are a few assumptions about the error itself. Firstly, the probablity of any bit being flipped is equal, there won't exist an ith bit where it's more likely to get flipped. Secondly, the more non-zero bits the error has, the less likely it would occur. 
+[^error]: There are a few assumptions about the error itself. Firstly, the probablity of any bit being flipped is equal, there won't exist an ith bit where it's more likely to get flipped. Secondly, the more non-zero bits the error has, the less likely the error would occur. 
