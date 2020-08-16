@@ -13,9 +13,9 @@ I recommend you to read this post after you've finished your first chapter in co
 
 ## The triple repetition code
 
-Let M be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 through the channel. Then $$M = \{0, 1\} = Z_2$$ [^Z_2]
+Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = \{0, 1\} = Z_2$$ [^Z_2]
 
-Sadly, the channel is noisy and could sometimes flip the bits that you are sending. To remedy this, you decide to repeat every bit by 3 times. In essence, you are creating an injective projection C, 
+Sadly, the channel is noisy and could sometimes flip the bits that you are sending. To remedy this, you decide to repeat every bit by 3 times. In essence, you are creating an injective projection $$C$$, 
 
 $$ C : M \rightarrow Z_2^3 $$
 
@@ -25,13 +25,13 @@ $$ C : \{0\} \rightarrow \{0, 0, 0\} $$
 
 $$ C : \{1\} \rightarrow \{1, 1, 1\} $$
 
-C is called the **encoding function** . 
+$$C$$ is called the **encoding function** . 
 
-Let's say some m in M went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error. Now we need a surjective **decoding function** D where 
+Let's say some $$m$$ in $$M$$ went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error. Now we need a surjective **decoding function** $$D$$ where 
 
 $$ D : Z_2^3 \rightarrow M$$
 
-Obviously, it would be nice if D could project all $$C(m) + e$$ to $$m$$ accurately. However in reality things are not so nice. For this case, the best decoding function is the one which decodes to a bit if that bit appears more often in C(m) + e. 
+Obviously, it would be nice if $$D$$ could project all $$C(m) + e$$ to $$m$$ accurately. However in reality things are not so nice. For this case, the best decoding function is the one which decodes to a bit if that bit appears more often in $$C(m) + e$$, i.e.
 
 $$ 
 \begin{aligned} 
@@ -40,9 +40,9 @@ D : &\{0, 0, 0\}, \{1, 0, 0\}, \{0, 1, 0\}, \{0, 1, 1\} \rightarrow \{0\} \\
 \end{aligned}
 $$
 
-It could be seen that $$ D(C(m)+e)) = m$$ if and only if the number of non-zero bits in e is smaller or equal to 1. Hence we call this code to be 1-error correcting.
+It could be seen that $$ D(C(m)+e)) = m$$ if and only if the number of non-zero bits in $$e$$ is smaller or equal to 1. Hence we call this code to be 1-error correcting.
 
-Also note that some **errors can go undetected**. As if $$e = \{1, 1, 1\} $$, $$C(m) + e$$ will be equal to either $$\{0, 0, 0\}$$ or $$\{1, 1, 1\}$$ and no errors will be detected. Hence, e could only have a maximum of 2 non-zero bits.
+Also note that some **errors can go undetected**. As if $$e = \{1, 1, 1\} $$, $$C(m) + e$$ will be equal to either $$\{0, 0, 0\}$$ or $$\{1, 1, 1\}$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits.
 
 After this rundown, there are a few details that needs to be stressed.
 
