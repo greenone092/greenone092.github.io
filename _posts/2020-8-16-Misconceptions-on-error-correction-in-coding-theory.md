@@ -13,7 +13,7 @@ I recommend you to read this post after you've finished your first chapter in co
 
 ## The triple repetition code
 
-Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = (0, 1) = Z_2$$ [^Z_2]
+Let $$M$$ be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 (a bit) through the channel. Then $$M = \{(0) , (1)\} = Z_2$$ [^Z_2]
 
 Sadly, the channel is noisy and could sometimes flip the bits that you are sending. To remedy this, you decide to repeat every bit by 3 times. In essence, you are creating an injective projection $$C$$, 
 
@@ -60,5 +60,5 @@ This is a consequence of the decoding function being surjective. For example, if
 You could also observe this phenonmon when $$e = (1, 1, 1)$$ as mentioned earlier.
 
 
-[^Z_2]: It could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
+[^Z_2]: I used () to emphaise that they are 1-dimensional vectors. You could treat vectors as coordinates for now. $$Z_2$$ could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
 
