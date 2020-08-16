@@ -39,7 +39,7 @@ Obviously, it would be nice if $$D$$ could project all $$C(m) + e$$ to $$m$$ acc
 $$ 
 \begin{aligned} 
 D : &(0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1) \rightarrow (0) \\ 
-&(1, 1, 1), (1, 1, 0), (0, 1, 1), (1, 0, 1) \rightarrow (1)  
+&(1, 1, 1), (0, 1, 1), (1, 0, 1), (1, 1, 0) \rightarrow (1)  
 \end{aligned}
 $$
 
