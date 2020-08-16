@@ -30,7 +30,7 @@ $$
 
 $$C$$ is called the **encoding function** . 
 
-Let's say some $$m$$ in $$M$$ went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error. [^error]Now we need a surjective **decoding function** $$D$$ where 
+Let's say some $$m$$ in $$M$$ went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error[^error]. Now we need a surjective **decoding function** $$D$$ where 
 
 $$ D : Z_2^3 \rightarrow M$$
 
