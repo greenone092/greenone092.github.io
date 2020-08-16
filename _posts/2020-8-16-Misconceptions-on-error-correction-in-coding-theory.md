@@ -21,9 +21,12 @@ $$ C : M \rightarrow Z_2^3 $$
 
 where
 
-$$ C : \{0\} \rightarrow \{0, 0, 0\} $$
-
-$$ C : \{1\} \rightarrow \{1, 1, 1\} $$
+$$ 
+\begin{aligned} 
+C : &\{0\} \rightarrow \{0, 0, 0\} \\ 
+&\{1\} \rightarrow \{1, 1, 1\} 
+\end{aligned}
+$$
 
 $$C$$ is called the **encoding function** . 
 
