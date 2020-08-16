@@ -45,7 +45,7 @@ $$
 
 It could be seen that $$ D(C(m)+e)) = m$$ if and only if the number of non-zero bits in $$e$$ is smaller or equal to 1. Hence we call this code to be 1-error correcting.
 
-Also note that some **errors can go undetected**. As if $$e = \{1, 1, 1\} $$, $$C(m) + e$$ will be equal to either $$\{0, 0, 0\}$$ or $$\{1, 1, 1\}$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits.
+Also note that some **errors can go undetected**. As if $$e = \{1, 1, 1\} $$, $$C(m) + e$$ will be equal to either $$\{0, 0, 0\}$$ or $$\{1, 1, 1\}$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits. As such, we call this code 2-error detecting.
 
 After this rundown, there are a few details that needs to be stressed.
 
