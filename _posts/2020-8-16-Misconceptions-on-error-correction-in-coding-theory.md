@@ -30,7 +30,7 @@ $$
 
 $$C$$ is called the **encoding function** . 
 
-Let's say some $$m$$ in $$M$$ went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error. Now we need a surjective **decoding function** $$D$$ where 
+Let's say some $$m$$ in $$M$$ went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error. [^error]Now we need a surjective **decoding function** $$D$$ where 
 
 $$ D : Z_2^3 \rightarrow M$$
 
@@ -45,7 +45,7 @@ $$
 
 It could be seen that $$ D(C(m)+e)) = m$$ for all $$m$$ if and only if the number of non-zero bits in $$e$$ is smaller or equal to 1. Hence we call this code to be 1-error correcting.
 
-Also note that some **errors can go undetected**. As if $$e = (1, 1, 1) $$, $$C(m) + e$$ will be equal to either $$(0, 0, 0)$$ or $$(1, 1, 1)$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits. As such, we call this code 2-error detecting.
+Also note that some **errors can go undetected**. As if $$e = (1, 1, 1) $$, $$C(m) + e$$ will be equal to either $$(0, 0, 0)$$ or $$(1, 1, 1)$$ and no errors will be detected. Hence, $$e$$ could only have a maximum of 2 non-zero bits. As such, we call this code 2-error detecting. 
 
 After this rundown, there are a few details that needs to be stressed.
 
@@ -61,3 +61,4 @@ You could also observe this phenonmon more trivially when $$e = (1, 1, 1)$$ as m
 
 [^Z_2]: $$Z_2$$ could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
 
+[^error]: There are a few assumptions about the error itself. Firstly, the probablity of any bit being flipped is equal, there won't exist an ith bit where it's more likely to get flipped. Secondly, the more non-zero bits the error has, the less likely it would occur. 
