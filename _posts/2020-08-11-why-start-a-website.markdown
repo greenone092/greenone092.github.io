@@ -18,4 +18,4 @@ As a final touch, this website is open-source as it's currently hosted by github
 
 I should also mention that while Wix / Squarespace / Wordpress are options for starting a webpage, I believe I'll just be stuck in the same cycle but one level higher. To my knowledge, it's basically impossible to transfer the website you made with these proprietary software to anywhere else. While github pages still have their limitations, I believe it's still not a bad starter to hosting your very own website.
 
-[^mathjax]: Currently I'm using [MathJax](http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html), but it seems to have some limitations where you can't include packages.
+[^mathjax]: Currently I'm using [MathJax](http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html), it supports [a lot of symbols](http://docs.mathjax.org/en/v1.1-latest/tex.html#supported-latex-commands) by default already 
