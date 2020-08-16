@@ -1,30 +1,61 @@
 ---
 layout: page
-title:  "Misconceptions on error correction in coding theory"
+title:  "Misconceptions on error correction in coding theory - Part 1"
 date:   2020-08-16 20:43:00 +0800
-published: false
+published: true
 ---
 
-In this post, I want to talk about some of the stuff I wish I had known about error corerection when I first began learning it in coding theory. I'm going to talk about error correction with linear or cyclic codes in mind. (The codes that are used in QR codes, DVDs, etc)
+_This is an unfinished series_ 
+
+In this series, we are going to discuss some of the stuff I wish I had known when  I started learning coding theory. I think it's very easy in mathematics to get lost in the notations and definitions early on, and end up forming some major misconceptions. In Part 1, we will use a simple example.
+
+I recommend you to read this post after you've finished your first chapter in coding theory. I've stripped down most of the jargon (i.e. Hamming distance) in order to express my points as concisely as possible, whilst keeping the content logically self-contained.
+
+## The triple repetition code
+
+Let M be the set of all possible messages you would like to send through a digital channel. For example, let's assume you'd like to send 0 or 1 through the channel. Then $$M = \{0, 1\} = Z_2$$ [^Z_2]
+
+Sadly, the channel is noisy and could sometimes flip the bits that you are sending. To remedy this, you decide to repeat every bit by 3 times. In essence, you are creating an injective projection C, 
+
+$$ C : M \rightarrow Z_2^3 $$
+
+where
+
+$$ C : \{0\} \rightarrow \{0, 0, 0\} $$
+
+$$ C : \{1\} \rightarrow \{1, 1, 1\} $$
+
+C is called the **encoding function** . 
+
+Let's say some m in M went through the channel, and the reciever recieved $$C(m) + e$$ where e is some error. Now we need a surjective **decoding function** D where 
+
+$$ D : Z_2^3 \rightarrow M$$
+
+Obviously, it would be nice if D could project all $$C(m) + e$$ to $$m$$ accurately. However in reality things are not so nice. For this case, the best decoding function is the one which decodes to a bit if that bit appears more often in C(m) + e. 
+
+$$ 
+\begin{aligned} 
+D : &\{0, 0, 0\}, \{1, 0, 0\}, \{0, 1, 0\}, \{0, 1, 1\} \rightarrow \{0\} \\ 
+&\{1, 1, 1\}, \{1, 1, 0\}, \{0, 1, 1\}, \{1, 0, 1\} \rightarrow \{1\}  
+\end{aligned}
+$$
+
+It could be seen that $$ D(C(m)+e)) = m$$ if and only if the number of non-zero bits in e is smaller or equal to 1. Hence we call this code to be 1-error correcting.
+
+Also note that some **errors can go undetected**. As if $$e = \{1, 1, 1\} $$, $$C(m) + e$$ will be equal to either $$\{0, 0, 0\}$$ or $$\{1, 1, 1\}$$ and no errors will be detected. Hence, e could only have a maximum of 2 non-zero bits.
+
+After this rundown, there are a few details that needs to be stressed.
+
+# The decoding function is surjective
+
+In essence, no matter how error-prone the received code might seem to be, the decoding function will still try to find the most probable code that could've possibly generataed the received code. You may wonder that in more complicated codes, it's very likely the decoded message is wrong, why do we still bother decoding it even though the chances are so low? The reason is that it might not be possible to ask for any form of external verification. Say that you are trying to play a DVD or read a QR code offline. At that moment, you wouldn't be able to immediatedly ask the original author for verification, all you could do is to decode it to the best of your abilities and take the chance.
+
+# You can correct an error wrongly
+
+This is a consequence of the decoding function being surjective. For example, if $$\{1, 0, 1\}$$ is received, while the decoding function would think that $$C(m) = \{1, 1, 1\}, m = \{1\},  e = \{0, 1, 0\}$$, it's entirely possible that $$C(m) = \{0, 0, 0\}, m = \{0\},  e = \{1, 0, 1\} $$. It's just less likely that that is the case.
+
+You could also observe this phenonmon when $$e = \{1, 1, 1\}$$ as mentioned earlier.
 
 
-# Premise of this disucussion.
+[^Z_2]: It could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
 
-It's very important that we are discussing about coding theory with QR codes, DVDs or other forms of static information in mind. In these cases, it's impossible to ask the author to verify the message. It's unlike sending messages over the internet, where you could ask the sender to resend their messages should any errors be deteced. As such, even if we detect an error, we still have to figure out a way to correct it to the best of our abilities. 
-
-Hence every possible encoded messages that we recieve, no matter how "error-prone" they may seem on inspection, will be "decoded" to some original message which has the highest probability of giving the encoded message. It's pointless for the algorithm to be able to detect errors but not correct it. 
-
-# You can correct errors on everything using coding theory
-
-You can't. Coding theory isn't about getting something totally unexpected, then trying to figure out it's pattern and then by using various methods and somehow recover the lost information. To put it simply, Coding theorists aren't really like data recovery shops, where you could present anything to them and they could recover it. Coding theorists mainly deal with small and expected losses in data. Coding theorists design around these predictable constraints and creates a time-efficient / automated way of dealing with them.
-
-# There's no cost to error correction
-
-If you want to correct something, you need to add something more, called parity bits, to the message you are sending (i.e. enlarging the message). In fact, there are a bunch of constraints on how efficient / costly your error correcting algorithm could be, so there's pratically always a lower / upper bound of "cost" for any error-correcting code that you are evisioning.
-
-
-# What makes a good error correcting code?
-
-It's very important to remember that the ultimate goal is to deal with small and expected losses in data. Even if your code could correct errors of all sizes 90% of the time, it's still a bad algorithm in coding theorists' eyes due to its inconsistency. What coding theory is trying to achieve is to eliminate ALL tiny errors under a specific size. What the algorithm does to encoded messages with errors larger than the specified limit is completely ignored. 
-
-There's a bunch more stuff I wish I could've mentioned, however to have any further discussion I will basically have to talk about coding theory mathematically, and I believe that is best left for actual books.
