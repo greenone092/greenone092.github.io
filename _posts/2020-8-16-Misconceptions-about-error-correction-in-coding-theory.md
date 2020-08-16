@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Misconceptions on error correction in coding theory - Part 1"
+title:  "Misconceptions about error correction in coding theory - Part 1"
 date:   2020-08-16 20:43:00 +0800
 published: true
 ---
