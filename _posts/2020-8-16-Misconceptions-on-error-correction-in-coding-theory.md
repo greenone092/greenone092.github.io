@@ -2,6 +2,7 @@
 layout: page
 title:  "Misconceptions on error correction in coding theory"
 date:   2020-08-16 20:43:00 +0800
+published: false
 ---
 
 In this post, I want to talk about some of the stuff I wish I had known about error corerection when I first began learning it in coding theory. I'm going to talk about error correction with linear or cyclic codes in mind. (The codes that are used in QR codes, DVDs, etc)
@@ -20,6 +21,7 @@ You can't. Coding theory isn't about getting something totally unexpected, then 
 # There's no cost to error correction
 
 If you want to correct something, you need to add something more, called parity bits, to the message you are sending (i.e. enlarging the message). In fact, there are a bunch of constraints on how efficient / costly your error correcting algorithm could be, so there's pratically always a lower / upper bound of "cost" for any error-correcting code that you are evisioning.
+
 
 # What makes a good error correcting code?
 
