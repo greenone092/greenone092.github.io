@@ -57,7 +57,7 @@ This is the most important consequence of positive definiteness which proof will
 
 This is another consequence of the positive definiteness of the dot product. 
 
-Recall the formula of the vector projection of a onto b:
+Recall the formula of the vector projection of $$a$$ onto $$b$$:
 
 $$ \frac{a \cdot b}{b \cdot b} b$$
 
