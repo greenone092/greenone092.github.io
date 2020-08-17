@@ -61,14 +61,18 @@ Recall the formula of the vector projection of $$a$$ onto $$b$$:
 
 $$ \frac{a \cdot b}{b \cdot b} b$$
 
-If the dot product is not positive definite, $$b \cdot b$$ may be equal to $$0$$. As such, it would be impossible to project any vector onto $$b$$
+If the dot product is not positive definite, $$b \cdot b$$ may be equal to $$0$$. As such, it would be impossible to project any vector onto $$b$$.
+
+Furthermore, as the norm, $$\sqrt(v \cdot v)$$,  may be 0 for some non-zero vectors. Unit vectors does not exist for all non-zero vectors in $$Z^n_m$$.
 
 ## **Examples**
 
 Consider $$Z^2_2$$. Let W be a subspace of $$Z_2^2$$ where $$W = 
 \{(0, 0), (1, 1)\}$$. You could observe that it's orthogonal subspace is actually itself. Leading to an equation you would never see using the dot product on Euclidean space, $$W = W^\perp$$. It's also obvious that $$ V \neq W \bigoplus W^\perp$$ as $$ V \neq W$$. However, $$\dim W + \dim W^\perp = \dim V$$ still holds true as $$ 1 + 1 = 2$$.
 
-Considering projection, it's also impossible to project any vector onto $$(1, 1)$$. For example, if you project $$(1, 0)$$ onto $$(1, 1)$$, you'd get $$(\frac{1}{2},\frac{1}{2})$$. However the inverse of $$2$$ doesn't exist in $$Z_2$$.
+Considering projection, it's also impossible to project any vector onto $$(1, 1)$$ over $Z^2_2$. For example, if you project $$(1, 0)$$ onto $$(1, 1)$$, you'd get $$(\frac{1}{2},\frac{1}{2})$$. However the inverse of $$2$$ doesn't exist in $$Z_2$$. 
+
+
 
 
 [^field]: If we are talking about $$R^n$$ , $$F = R$$. If we are talking about $$Z_2^n$$, $$F = Z_2$$
