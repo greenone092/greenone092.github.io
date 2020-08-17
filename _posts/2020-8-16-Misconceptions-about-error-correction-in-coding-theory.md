@@ -59,7 +59,7 @@ More importantly, we apply the decoding function to **every** encoded message th
 
 # The code is independent of the noise of the channel
 
-Throughout coding theory, we are never explicitly concerned about the channel noise level. In a way, coding theory always works around an artificial assumption. For this example, this code works perfectly when it's assumed that there's a maximum of 1 error between any 3 consecutive bits sent. Whether that condition is actually satisified or how we detect the channel noise level is beyond the code. 
+Throughout coding theory, we are never explicitly concerned about the channel noise level. In a way, coding theory always works around an artificial assumption. For this example, this code works perfectly when it's assumed that there's a maximum of 1 non-zero bit in the error for every message (3 bits). Whether that condition is actually satisified or how we detect the channel noise level is beyond the code. 
 
 # The decoding function is a function.
 
