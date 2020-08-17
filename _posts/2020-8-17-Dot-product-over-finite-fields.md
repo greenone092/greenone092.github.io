@@ -11,7 +11,7 @@ Let us begin with the definition of the dot product.
 
 **Definition (Dot product)** _The dot product of two vectors $$u = (u_1, u_2, ..., u_n)$$ and $$v = (v_1, v_2 ..., v_n)$$ is defined as_  $$u \cdot v = u_1v_1 + u_2v_2 + ... u_nv_n$$
 
-Using this dot product on both $$R^n$$ and $$Z_m^n$$ will lead to different propeties. For simplicity's sake, I shall use $$Z_2^n$$ in the following.
+Using this dot product on both $$R^n$$ and $$Z_m^n$$ will lead to different propeties. The value of m does not affect the validity of the theorems, I shall use $$Z_2^n$$ for any examples.
 
 ## **Simmilarities**
 
@@ -33,7 +33,7 @@ $$ \forall u, \forall v, \forall x \in F $$[^field]
 
 **Theorem** _The dot product on both vector spaces are non-degenerate_
 
-Proof: Considering any non-zero vector $$v$$, there must exist some $$v_i \neq 0$$. If we let $$w$$ to be (0, 0, ... 1, 0, ...) where it has a 1 in the ith position, $$ v \cdot w \neq 0$$. Hence $$v$$ must be the 0 vector.
+Proof: Considering any non-zero vector $$v = (v_1, v_2, ... v_n)$$, there must exist some $$v_i \neq 0$$. If we let $$w$$ to be (0, 0, ... 1, 0, ...) where it has a 1 in the ith position, $$ v \cdot w \neq 0$$. Hence $$v$$ must be the $$0$$ vector in order to satisify the condition.
 
 **Theorem** _Let $$V$$ be a finite dimensional vector space with a non-degenerate scalar product. Let $$W$$ be a subapce. Let $$W^\perp$$ be the subspace of V consisting of all elements $$ v \in V$$ such that $$v \cdot w = 0$$ for all $$w \in W$$. Then_
 
@@ -61,12 +61,14 @@ Recall the formula of the vector projection of $$a$$ onto $$b$$:
 
 $$ \frac{a \cdot b}{b \cdot b} b$$
 
-If the dot product is not positive definite, $$b \cdot b$$ may be equal to 0. As such, it would be impossible to project any vector onto $$b$$
+If the dot product is not positive definite, $$b \cdot b$$ may be equal to $$0$$. As such, it would be impossible to project any vector onto $$b$$
 
 ## **Examples**
 
 Consider $$Z^2_2$$. Let W be a subspace of $$Z_2^2$$ where $$W = 
-\{(0, 0), (1, 1)\}$$. You could observe that it's orthogonal subspace is actually itself. Leading to an equation you would never see using the scalar product on Euclidean space, $$W = W^\perp$$. It's also obvious that $$ V \neq W \bigoplus W^\perp$$ as $$ V \neq W$$. However, $$\dim W + \dim W^\perp = dim V$$ still holds true as $$ 1 + 1 = 2$$.
+\{(0, 0), (1, 1)\}$$. You could observe that it's orthogonal subspace is actually itself. Leading to an equation you would never see using the dot product on Euclidean space, $$W = W^\perp$$. It's also obvious that $$ V \neq W \bigoplus W^\perp$$ as $$ V \neq W$$. However, $$\dim W + \dim W^\perp = \dim V$$ still holds true as $$ 1 + 1 = 2$$.
+
+Considering projection, it's also impossible to project any vector onto $$(1, 1)$$. For example, if you project $$(1, 0)$$ onto $$(1, 1)$$, you'd get $$(\frac{1}{2},\frac{1}{2})$$. However the inverse of $$2$$ doesn't exist in $$Z_2$$.
 
 
 [^field]: If we are talking about $$R^n$$ , $$F = R$$. If we are talking about $$Z_2^n$$, $$F = Z_2$$
