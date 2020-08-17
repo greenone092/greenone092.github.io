@@ -47,7 +47,7 @@ This is the major conseuquence of non-degenrenacy which proof will be ommitted. 
 
 **Definition (Positive definite)** _The scalar product is called to be positive definite if $$v\cdot v \geq 0 $$ for all $$v\in v$$, and that $$v\cdot v > 0$$ if $$v\neq 0$$_
 
-This is true on $$R^n$$ but false on $$Z_2^n$$. For example in $$Z_2^2$$, $$(1, 1) \cdot (1, 1) = 0$$. Let us talk about what positive definiteness implies first.
+This is true on $$R^n$$ but false on $$Z_2^n$$. For example in $$Z_2^2$$, $$(1, 1) \cdot (1, 1) = 0$$.
 
 **Theorem** _Let $$R^n$$ be a vector space with a positive definite scalar product, Let $$W$$ be a subspace of $$V$$. Then $$W \bigoplus W^\perp = V$$_
 
@@ -65,7 +65,8 @@ If the dot product is not positive definite, $$b \cdot b$$ may be equal to 0. As
 
 ## **Examples**
 
-Consider $$Z^2_2$$. Let W be a subspace of $$Z_2^2$$ where $$W = {(0, 0), (1, 1)}$$. You could observe that it's orthogonal subspace is actually itself. Leading to an equation you would never see using the scalar product on Euclidean space, $$W = W^\perp$$. It's also obvious that $$ V \neq W \bigoplus W^\perp$$ as $$ V \neq W$$. However, $$\dim W + \dim W^\perp = dim V$$ still holds true as $$ 1 + 1 = 2$$.
+Consider $$Z^2_2$$. Let W be a subspace of $$Z_2^2$$ where $$W = 
+\{(0, 0), (1, 1)\}$$. You could observe that it's orthogonal subspace is actually itself. Leading to an equation you would never see using the scalar product on Euclidean space, $$W = W^\perp$$. It's also obvious that $$ V \neq W \bigoplus W^\perp$$ as $$ V \neq W$$. However, $$\dim W + \dim W^\perp = dim V$$ still holds true as $$ 1 + 1 = 2$$.
 
 
 [^field]: If we are talking about $$R^n$$ , $$F = R$$. If we are talking about $$Z_2^n$$, $$F = Z_2$$
