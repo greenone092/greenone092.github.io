@@ -63,7 +63,7 @@ $$ \frac{a \cdot b}{b \cdot b} b$$
 
 If the dot product is not positive definite, $$b \cdot b$$ may be equal to $$0$$. As such, it would be impossible to project any vector onto $$b$$.
 
-Furthermore, as the norm, $$\sqrt(v \cdot v)$$,  may be 0 for some non-zero vectors. Unit vectors does not exist for all non-zero vectors in $$Z^n_m$$.
+Furthermore, as the norm, $$\sqrt{v \cdot v}$$,  may be 0 for some non-zero vectors. Unit vectors does not exist for all non-zero vectors in $$Z^n_m$$.
 
 ## **Examples**
 
