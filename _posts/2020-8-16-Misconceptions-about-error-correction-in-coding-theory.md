@@ -51,9 +51,9 @@ Also note that some **errors can go undetected**. As if $$e = (1, 1, 1) $$, $$C(
 
 After this rundown, there are a few details that needs to be stressed.
 
-# Error correction is done constantly
+# The decoding function applies on every encoded message
 
-In this example, the decoding function is applied universally to all encoded messages that we receive. We never explicitly attempted to detect any errors. In a way, error correction is only one of the possible consequences of decoding the message. 
+In this example, the decoding function is applied universally on all encoded messages that we receive. We never explicitly attempted to detect any errors. In a way, error correction is only one of the possible consequences of decoding the message. 
 
 # The decoding function is a function.
 
