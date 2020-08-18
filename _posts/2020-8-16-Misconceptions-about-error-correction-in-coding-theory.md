@@ -53,13 +53,7 @@ After this rundown, there are a few details that needs to be stressed.
 
 # Error correction is done constantly
 
-One may assume that we first "detect" an error, then we "correct" the error. However if you look closely at the decoding function, all we really did was to assume what the error was going to be. 
-
-More importantly, we apply the decoding function to **every** encoded message that we receive. Even if we know that the channel is perfect and free of any noise, we still have to apply the decoding function. In a way, error correction is not something that we do only when we "know" or "see" that something's wrong. It's not an emergency button.
-
-# The code is independent of the noise of the channel
-
-Throughout coding theory, we are never explicitly concerned about the channel noise level. In a way, coding theory always works around an artificial assumption. For this example, this code works perfectly when it's assumed that there's a maximum of 1 non-zero bit in the error for every message (3 bits). Whether that condition is actually satisified or how we detect the channel noise level is beyond the code. 
+In this example, the decoding function is applied universally to all encoded messages that we receive. We never explicitly attempted to detect any errors. In a way, error correction is only one of the possible consequences of decoding the message. 
 
 # The decoding function is a function.
 
@@ -67,9 +61,7 @@ Every input is associated with an output. In essence, no matter how error-prone 
 
 # You can correct errors wrongly.
 
-While this sentence seems counter-intuitive, it is a consequence of the decoding function being a function. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1)$$ , $$m = 1$$ and  $$e = (0, 1, 0)$$, it's entirely possible that $$C(m) = (0, 0, 0)$$, $$m = 0$$ and  $$e = (1, 0, 1) $$. It's just less likely that that is the case. Just remember that error correction is never "perfect" without any assumptions.
-
-You could also observe this phenonmon more trivially when $$e = (1, 1, 1)$$ as mentioned earlier.
+This statement may seem counter-intutive at first. For example, if $$(1, 0, 1)$$ is received, while the decoding function would think that $$C(m) = (1, 1, 1)$$ , $$m = 1$$ and  $$e = (0, 1, 0)$$, however in reality it's entirely possible that $$C(m) = (0, 0, 0)$$, $$m = 0$$ and  $$e = (1, 0, 1) $$. It's just less likely that that is the case. You could also observe this phenonmon more trivially when $$e = (1, 1, 1)$$ as mentioned earlier. 
 
 [^Z_2]: $$Z_2$$ could also be written as $$Z/2$$ or $$GF(2)$$. Remember that $$1 + 1 = 0$$. Here's the wikipedia page about this [field](https://en.wikipedia.org/wiki/GF(2)).
 
