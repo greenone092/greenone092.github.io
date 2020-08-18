@@ -2,6 +2,7 @@
 layout: page
 title:  "Why start a website?"
 date:   2020-08-11 01:45:00 +0800
+published: true
 ---
 
 There are a few reasons why I am starting this website / blog.

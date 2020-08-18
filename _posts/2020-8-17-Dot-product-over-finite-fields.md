@@ -74,7 +74,7 @@ If the dot product is not positive definite, $$b \cdot b$$ may be equal to $$0$$
 Consider $$Z^2_2$$. Let W be a subspace of $$Z_2^2$$ where $$W = 
 \{(0, 0), (1, 1)\}$$. You could observe that it's orthogonal subspace is actually itself. Leading to an equation you would never see using the dot product on Euclidean space, $$W = W^\perp$$. It's also obvious that $$ V \neq W \bigoplus W^\perp$$ as $$ V \neq W$$. However, $$\dim W + \dim W^\perp = \dim V$$ still holds true as $$ 1 + 1 = 2$$.
 
-Considering projection, it's also impossible to project any vector onto $$(1, 1)$$ over $Z^2_2$. For example, if you project $$(1, 0)$$ onto $$(1, 1)$$, you'd get $$(\frac{1}{2},\frac{1}{2})$$. However the inverse of $$2$$ doesn't exist in $$Z_2$$. 
+Considering projection, it's also impossible to project any vector onto $$(1, 1)$$ over $$Z^2_2$$. For example, if you project $$(1, 0)$$ onto $$(1, 1)$$, you'd get $$(\frac{1}{2},\frac{1}{2})$$. However the inverse of $$2$$ doesn't exist in $$Z_2$$. 
 
 
 
