@@ -7,9 +7,9 @@ published: true
 
 _This is an unfinished series_ 
 
-In this series, we are going to discuss some of the stuff I wish I had known when I started learning coding theory. I think it's very easy in mathematics to get lost in the notations and definitions early on, and end up forming some major misconceptions. In Part 1, we will use a simple example.
+In this series, we are going to discuss some of the stuff I wish I had known when I started learning coding theory. I think it's very easy in mathematics to get lost in the notations and definitions early on, and end up forming some major misconceptions. In Part 1, we will use a simple example. However, please note that this post's content is only applicable to the very basics of coding theory. 
 
-I recommend you to read this post after you've finished your first chapter in coding theory. I've stripped down most of the jargon (i.e. Hamming distance) in order to express my points as concisely as possible, whilst keeping the content logically self-contained.
+I recommend you to read this post after you've finished your first chapter in coding theory. I've stripped down most of the jargon (i.e. Hamming distance) in order to express my points as concisely as possible, whilst keeping the content logically self-contained. 
 
 ## The triple repetition code
 
@@ -53,7 +53,7 @@ After this rundown, there are a few details that needs to be stressed.
 
 # Error correction is done constantly
 
-One may assume that we first "detect" and error, then we "correct" the error. However if you look closely at the decoding function, all we really did was to assume what the error was going to be. 
+One may assume that we first "detect" an error, then we "correct" the error. However if you look closely at the decoding function, all we really did was to assume what the error was going to be. 
 
 More importantly, we apply the decoding function to **every** encoded message that we receive. Even if we know that the channel is perfect and free of any noise, we still have to apply the decoding function. In a way, error correction is not something that we do only when we "know" or "see" that something's wrong. It's not an emergency button.
 
@@ -64,7 +64,6 @@ Throughout coding theory, we are never explicitly concerned about the channel no
 # The decoding function is a function.
 
 Every input is associated with an output. In essence, no matter how error-prone the received code might seem to be, the decoding function will still try to find the most probable code that could've possibly generataed the received code. You may wonder that in more complicated codes, it's very likely the decoded message is wrong, why do we still bother decoding it even though the chances are so low? The reason is that it might not be possible to ask for any form of external verification. Say that you are trying to play a DVD or read a QR code offline. At that moment, you wouldn't be able to immediatedly ask the original author for verification, all you could do is to decode it to the best of your abilities and take the chance. 
-
 
 # You can correct errors wrongly.
 
