@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Using Zoom / Google Meet with OBS"
-date:   2020-08-17 10:00:00 +0800
+date:   2020-08-25 10:00:00 +0800
 published: true
 ---
 
