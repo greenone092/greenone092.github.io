@@ -19,7 +19,7 @@ In Zoom, the definition of a camera / video source is rather limited. You seem t
 
 2. Download [OBS](https://obsproject.com/)
 
-3. Download these two plugins: [OBS-VirtualCam](https://obsproject.com/forum/resources/obs-virtualcam.539/) and [obs-ndi - NewTek NDI™ integration into OBS Studio](https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/)
+3. Download these two plugins: [OBS-VirtualCam](https://obsproject.com/forum/resources/obs-virtualcam.949/) and [obs-ndi - NewTek NDI™ integration into OBS Studio](https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/)
 
 Just keep clicking next in their installations. You do not need to edit any parameters. Make sure you have downloaded everything before proceeding. 
 
