@@ -20,7 +20,8 @@
 
 title: Toby Lam
 email: greenone092@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: Toby Lam's blog
+# this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://greenone092.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  greenone092
