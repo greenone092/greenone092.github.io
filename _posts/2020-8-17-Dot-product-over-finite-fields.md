@@ -5,6 +5,14 @@ date:   2020-08-17 10:00:00 +0800
 published: true
 ---
 
+### Motivation
+
+When I first started learning coding theory, I thought I had known enough linear algebra, but turns out I haven't. In essence, I overlooked the entire "Scalar Products and Orthogonality" chapter in Serge Lang's "Linear Algebra" and tried to skip to the more intersting determinants / eigenvectors. In the end, I learnt my lesson the hard way, but looking back at the presentation of chapter, it really wasn't entirely clear why the theory of scalar products was important either. As such, I would like to present most of the major theorems of that chapter using the dot product. 
+
+---
+
+### Introduction
+
 Most of the time, (in coding theory for example) the definition of the dot product in euclidean space is directly borrowed to vector spaces over finite fields. However, many intuitive properties of the dot product in the euclidean space is no longer satisified. This post also assumes knowledge of vector spaces / subspaces and basic properties of the dot product over $$R^n$$. 
 
 Let us begin with the definition of the dot product.
@@ -76,7 +84,7 @@ Consider $$Z^2_2$$. Let W be a subspace of $$Z_2^2$$ where $$W =
 
 Considering projection, it's also impossible to project any vector onto $$(1, 1)$$ over $$Z^2_2$$. For example, if you project $$(1, 0)$$ onto $$(1, 1)$$, you'd get $$(\frac{1}{2},\frac{1}{2})$$. However the inverse of $$2$$ doesn't exist in $$Z_2$$. 
 
-
+---
 
 
 [^field]: If we are talking about $$R^n$$ , $$F = R$$. If we are talking about $$Z_2^n$$, $$F = Z_2$$
