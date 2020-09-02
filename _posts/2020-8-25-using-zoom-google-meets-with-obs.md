@@ -10,7 +10,7 @@ description: Setting up a virtual webcam with OBS and Skype's built-in backgroun
 
 In Zoom, the definition of a camera / video source is rather limited. You seem to only be able to use your webcam directly. However through OBS, you could customize the webcam footage shown to a much larger degree by creating a virtual webcam. After this guide, a few things could be achieved.
 
-1. If your system does not satisify the [system requirements for virtual background for zoom](https://support.zoom.us/hc/en-us/articles/360043484511), you could use skype's virtual background and stream it to Zoom / Google Meet. 
+1. If your system does not satisify the [system requirements for virtual background for zoom](https://support.zoom.us/hc/en-us/articles/360043484511), you could use skype's virtual background and stream it to Zoom.  (Google meet doesn't even have any virtual background support)
 
 2. You could switch your webcam footage to any picture you like. (Maybe show a picture that says you are taking a toliet break?)
 
