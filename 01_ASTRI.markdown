@@ -12,7 +12,7 @@ permalink: /astri/
 I'm a 17 year old, male student. For my Circulum vitae, please click [here]({{site.url}}/download/CV.pdf). For my personal statement, please click [here]({{site.url}}/download/statement.docx).
 
 For my completed projects / self-initiated work, please click [here]({{site.url}}/work/). 
-You could also refer to my (blog posts)[{{site.url}}] concerning my other interests.
+You could also refer to my [blog posts]({{site.url}}) concerning my other interests.
 
 ### Preference on major areas of ASTRI
 
