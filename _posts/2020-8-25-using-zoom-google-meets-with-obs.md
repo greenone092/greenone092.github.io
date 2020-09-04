@@ -52,4 +52,6 @@ Everything's done now! Sadly, I haven't figured out how to stream the audio to Z
 
 When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't exist, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings. **Even if it is already turned on, turn it off and on again while you are in the call.** After you turn it back on, you should be able to select Skype as NDI source.
 
+#### Lag in webcam footage
 
+Skype is also prone to opening multiple instances. Open task manager and end all skype instances.
