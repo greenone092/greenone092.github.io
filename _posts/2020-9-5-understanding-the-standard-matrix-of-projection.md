@@ -7,7 +7,7 @@ published: true
 
 #### Motivatation
 
-The standard matrix of projection is a very useful way of describing projection of a vector to another vector subspace. I will try to explain the rather convulted definition as simpe as possible.
+The standard matrix of projection is a very useful way of describing projection of a vector to another vector subspace. I will try to explain the rather convulted definition as simple as possible.
 
 #### Definition
 
