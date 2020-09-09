@@ -63,7 +63,7 @@ Hence, $$Bw = A(A^TA)^{-1}A^Tw = A(A^TA)^{-1}0 = 0$$
 
 #### Does $$(A^TA)^{-1}$$ always exist?
 
-This is the remaining technical issue that needs to be resolved. As otherwise $$B$$ will not be well-defined. For any matrix $$M$$, $$M$$ is invertible $$\Leftrightarrow$$ $$\det(A^TA)\neq0$$ $$\Leftrightarrow$$ $$Mx = 0$$ has a unique solution. Considering $$A^TAx=0$$
+This is the remaining technical issue that needs to be resolved. As otherwise $$B$$ will not be well-defined. For any matrix $$M$$, $$M$$ is invertible $$\Leftrightarrow$$ $$\det(M)\neq0$$ $$\Leftrightarrow$$ $$Mx = 0$$ has a unique solution. Considering $$A^TAx=0$$
 
 $$
 \begin{aligned}
