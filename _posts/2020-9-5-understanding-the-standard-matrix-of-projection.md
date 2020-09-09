@@ -25,7 +25,7 @@ Let's take a step back. If $$B$$ really was the standard matarix of projection. 
 
 $$ Bv = B(w+u) = Bw + Bu = w + 0 = w $$
 
-So if we really wanted to prove that the above definition works. We just need to prove that $$Bw = w$$ and $$Bu = 0$$.
+So if we really wanted to prove that the above definition works. We just need to prove that $$Bw = w$$ if $$w \in V$$ and $$Bu = 0$$ if $$u \perp V$$.
 
 #### $$Bw = w$$?
 
@@ -35,7 +35,7 @@ $$Bw = A(A^TA)^{-1}A^TAy = Ay = w$$
 
 #### $$Bu = 0$$?
 
-Consider $$A^Tw$$. As $$u$$ is perpendicular to all the basis vectors of V. The resulting vector would be
+Consider $$A^Tw$$. As $$u$$ is perpendicular to all the basis vectors of $$V$$. The resulting vector would be
 
 $$
 
