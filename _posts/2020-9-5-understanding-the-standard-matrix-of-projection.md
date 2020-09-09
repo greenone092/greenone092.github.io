@@ -40,10 +40,10 @@ Consider $$A^Tw$$. As $$u$$ is perpendicular to all the basis vectors of V. The 
 $$
 
 \begin{bmatrix}
-A_1 \cdot w \\
-A_2 \cdot w \\
+A^1 \cdot w \\
+A^2 \cdot w \\
 ... \\
-A_n \cdot w \\
+A^n \cdot w \\
 \end{bmatrix}
 
 =
