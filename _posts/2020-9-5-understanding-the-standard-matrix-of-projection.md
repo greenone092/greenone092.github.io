@@ -35,15 +35,15 @@ $$Bw = A(A^TA)^{-1}A^TAy = Ay = w$$
 
 #### $$Bu = 0$$?
 
-Consider $$A^Tw$$. As $$u$$ is perpendicular to all the basis vectors of $$V$$. The resulting vector would be
+Consider $$A^Tu$$. As $$u$$ is perpendicular to all the basis vectors of $$V$$. Let $$A^n$$ denote the nth column vector of A. The resulting vector would be
 
 $$
 
 \begin{bmatrix}
-A^1 \cdot w \\
-A^2 \cdot w \\
+A^1 \cdot u \\
+A^2 \cdot u \\
 ... \\
-A^n \cdot w \\
+A^n \cdot u \\
 \end{bmatrix}
 
 =
