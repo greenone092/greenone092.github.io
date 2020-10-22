@@ -59,7 +59,7 @@ A^n \cdot u \\
 
 $$
 
-Hence, $$Bw = A(A^TA)^{-1}A^Tw = A(A^TA)^{-1}0 = 0$$
+Hence, $$Bu = A(A^TA)^{-1}A^Tu = A(A^TA)^{-1}0 = 0$$
 
 #### Does $$(A^TA)^{-1}$$ always exist?
 
