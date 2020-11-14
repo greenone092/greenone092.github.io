@@ -27,4 +27,4 @@ It also explains why in a parallel circuit, the voltage is the same for all elem
 
 #### References
 
-Much of this has been copied from wikipedia. I'm making this blog post simply as an attemept to make HKDSE physics much more intuitive to understand. For more information, you could click [here](https://www.google.com/search?client=firefox-b-d&q=Kirchhoff%27s+circuit+laws)
+Much of this has been copied from wikipedia. I'm making this blog post simply as an attemept to make HKDSE physics much more intuitive to understand. For more information, you could click [here](https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws)
