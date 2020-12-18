@@ -10,7 +10,7 @@ description: Setting up a virtual webcam with OBS and Skype's built-in backgroun
 
 In Zoom, the definition of a camera / video source is rather limited. You seem to only be able to use your webcam directly. However through OBS, you could customize the webcam footage shown to a much larger degree by creating a virtual webcam. After this guide, a few things could be achieved.
 
-1. If your system does not satisify the [system requirements for virtual background for zoom](https://support.zoom.us/hc/en-us/articles/360043484511), you could use skype's virtual background and stream it to Zoom / Google Meet. 
+1. If your system does not satisify the [system requirements for virtual background for zoom](https://support.zoom.us/hc/en-us/articles/360043484511), you could use skype's virtual background and stream it to Zoom.  (Google meet doesn't even have any virtual background support)
 
 2. You could switch your webcam footage to any picture you like. (Maybe show a picture that says you are taking a toliet break?)
 
@@ -52,4 +52,6 @@ Everything's done now! Sadly, I haven't figured out how to stream the audio to Z
 
 When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't exist, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings. **Even if it is already turned on, turn it off and on again while you are in the call.** After you turn it back on, you should be able to select Skype as NDI source.
 
+#### Lag in webcam footage
 
+Skype is also prone to opening multiple instances. Open task manager and end all skype instances.
