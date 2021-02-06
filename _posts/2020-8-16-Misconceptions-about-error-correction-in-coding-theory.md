@@ -2,7 +2,7 @@
 layout: page
 title:  "Misconceptions about error correction in coding theory"
 date:   2020-08-16 20:43:00 +0800
-published: true
+published: false
 ---
 
 _This is an unfinished series_ 
