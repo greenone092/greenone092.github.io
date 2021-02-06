@@ -35,7 +35,7 @@ $$Bw = A(A^TA)^{-1}A^TAy = Ay = w$$
 
 #### $$Bu = 0$$?
 
-Consider $$A^Tu$$. As $$u$$ is perpendicular to all the basis vectors of $$V$$. Let $$A^n$$ denote the nth column vector of A. The resulting vector would be
+Let $$A^n$$ denote the nth column vector of $$A$$. Consider $$A^Tu$$. As $$u$$ is perpendicular to all the basis vectors of $$V$$. The vector $$A^Tu$$ would be
 
 $$
 
