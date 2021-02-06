@@ -9,6 +9,12 @@ I've recently recieved a conditional offer to read mathematics at Balliol Colleg
 
 I'm also not going to talk much about my personal statement since there is no way to know whether my tutors actually liked it or not. My only advice would be to write a statement that you are satisified with! You should however ask for others' opinions. If their ideas persuade you, then you should change it. If not, don't! Ultimately, it's your application. 
 
+## Knowing more
+
+Beside the official information that you could easily find, there's a couple resources that I've found to be immensely helpful. The most important of all would probably be the archived course materials ([2019-2020](https://courses.maths.ox.ac.uk/year/2019-2020)). It contains every course and their respective materials for some particular academic year. It's comofrting to know what learning mathematics at Oxford would really be like. The lecutre notes you would read, the problem sheets you would do etc
+
+Other than that, you could also read the [UG mathematics handbooks](https://www.maths.ox.ac.uk/members/students/undergraduate-courses/teaching-and-learning/handbooks-synopses) to have a detailed overview of the course itself.
+
 ## Mathematics Admission Test
 
 #### Preparation
