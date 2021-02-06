@@ -9,11 +9,11 @@ I've recently recieved a conditional offer to read mathematics at Balliol Colleg
 
 I'm also not going to talk much about my personal statement since there is no way to know whether my tutors actually liked it or not. My only advice would be to write a statement that you are satisified with! You should however ask for others' opinions. If their ideas persuade you, then you should change it. If not, don't! Ultimately, it's your application. 
 
-## Mathematics Applitude Test
+## Mathematics Admission Test
 
 #### Preparation
 
-Doing all the past papers is perhaps the best way to prepare. You should do some of them under timed conditions. You should also check out the [MAT livestream](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test/mat-livestream). If you really wanna do more exercise, do the [STEP foundation modules](https://maths.org/step/assignments). They are really fun. 
+Doing all the [past papers](https://www.google.com/search?client=firefox-b-d&q=Mathematics+Applitude+Test) is perhaps the best way to prepare. You should do some of them under timed conditions. You should also check out the [MAT livestream](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test/mat-livestream). If you really wanna do more exercise, do the [STEP foundation modules](https://maths.org/step/assignments). They are really fun. 
 
 #### Use the previous subparts
 
