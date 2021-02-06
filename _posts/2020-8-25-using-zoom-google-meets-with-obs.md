@@ -8,11 +8,13 @@ description: Setting up a virtual webcam with OBS and Skype's built-in backgroun
 
 ### Motivation
 
-In Zoom, the definition of a camera / video source is rather limited. You seem to only be able to use your webcam directly. However through OBS, you could customize the webcam footage shown to a much larger degree by creating a virtual webcam. After this guide, a few things could be achieved.
+In Zoom, the control you have over your webcam footage is limited. You can either turn your camera on or off, or add a greenscreen, and that's about it. However through OBS (Open Broadcaster Software), you could freely customize the webcam footage shown. This freedom gives various benefits. Namely,
 
-1. If your system does not satisify the [system requirements for virtual background for zoom](https://support.zoom.us/hc/en-us/articles/360043484511), you could use skype's virtual background and stream it to Zoom.  (Google meet doesn't even have any virtual background support)
+1. If your system does not satisify the [system requirements for virtual background for zoom](https://support.zoom.us/hc/en-us/articles/360043484511), you could use Skype's virtual background function to process your webcam's footage, then stream it to Zoom. 
 
-2. You could switch your webcam footage to any picture you like. (Maybe show a picture that says you are taking a toliet break?)
+2. If you are using google meet (which doesn't even have any virtual background support) or pretty much any other video calling platform, you could use the above method to set up a virtual greenscreen.
+
+2. You could switch your webcam footage to any picture you like. (Maybe show a picture that says you are taking a toliet break instead of abruptly turning your camera off?)
 
 ### Downloads
 
@@ -30,9 +32,7 @@ Follow this [video](https://www.youtube.com/watch?v=QPg5IfqAkAI). Rest assured y
 
 1. As we are trying to use Skype to process our webcam's footage, you could start a call with yourself. To do this, click meet now and start a meeting. This constitudes as an active call even though there's only you in it. Make sure you turn on the video.
 
-2. Even if your system is capable of using Zoom's virtual background without greenscreen, it's not recommended as it might apply to any other images that OBS might show. 
-
-3. To change the OBS's output to say a static picture. You create a new scene and add a picture to the source section. Whenever you want to show that picture, you switch to that scene. For more details, you could look at some [OBS tutorials](https://www.youtube.com/watch?v=DTk99mHDX_I)
+2. To change the OBS's output to say a static picture. You create a new scene and add a picture to the source section. Whenever you want to show that picture, you switch to that scene. For more details, you could look at some [OBS tutorials](https://www.youtube.com/watch?v=DTk99mHDX_I)
 
 ### Integration with Zoom / Google Meet
 
@@ -50,8 +50,10 @@ Everything's done now! Sadly, I haven't figured out how to stream the audio to Z
 
 #### Cannot find skype NDI source in OBS
 
-When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't exist, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings. **Even if it is already turned on, turn it off and on again while you are in the call.** After you turn it back on, you should be able to select Skype as NDI source.
+When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't exist, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings. 
+
+If NDI is already turned on in your skype call and you still couldn't find it. Turn NDI off and on again while you are in the call by going to settings. After you turn it back on, you should be able to select Skype as NDI source.
 
 #### Lag in webcam footage
 
-Skype is also prone to opening multiple instances. Open task manager and end all skype instances.
+I don't know why this happens, but restarting skype seems to do the trick. Open task manager, right click on any skype instances and click "end task". Then open skype and start a meeting ...
