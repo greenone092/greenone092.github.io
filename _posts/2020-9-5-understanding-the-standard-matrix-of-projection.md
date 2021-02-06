@@ -2,7 +2,7 @@
 layout: page
 title:  "Understanding the standard matrix of projection"
 date:   2020-09-5 21:00:00 +0800
-published: true
+published: false
 ---
 
 #### Motivatation
