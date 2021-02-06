@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Applying to Oxford Mathematics"
+title:  "Applying to Oxford Mathematics (Undergraduate)"
 date:   2021-2-05 00:00 +0800
 published: true
 ---
@@ -9,7 +9,7 @@ I've recently recieved a conditional offer to read mathematics at Balliol Colleg
 
 I'm also not going to talk much about my personal statement since there is no way to know whether my tutors actually liked it or not. My only advice would be to write a statement that you are satisified with! You should however ask for others' opinions. If their ideas persuade you, then you should change it. If not, don't! Ultimately, it's your application. 
 
-### Mathematics Applitude Test
+## Mathematics Applitude Test
 
 #### Preparation
 
@@ -33,19 +33,21 @@ Some questions (Usually Q5) have a lot of cases to consider. You need to be very
 
 While there are exceptions, most questions could usually be answered without much steps. If you find yourself painfully expanding terms, you are probably not noticing something you should've. This is especially important in graph questions. Usually you need to spot some rigid transfomration.
 
-### Interviews
+## Interviews
 
 #### Preparation
 
 Try to recite some of the common identities (calculus, trigonometry ...)  before the interview. It would be unfortunate if you had to waste valuable time deducing them on the spot 
 
-#### Talk out loud
+#### Be thorough
 
-This is a very common advice and has to be stressed. 
+Since you would be stressed out during the interview, it's very easy to commit careless mistakes (copying wrongly, arithemetic errors ...). Taking your time is better than reaching the wrong conclusion and having to backtrack. Be throughough and write down or speak out everything. 
 
-#### Signal what you are going to do
+#### Communicating with the tutors
 
-Other than talking about what you're thinking now, you should try and describe what your next steps are. This is especially true if you think you've figured out the solution. If you explain yourself, the tutors would not have to worry about whether you're on the right track while they are watching you work. 
+Talk out loud. This is a very common advice and has to be stressed. 
+
+Other than that, you should try and describe what your next steps are. This is especially true if you think you've figured out the solution. If you explain yourself, the tutors would not have to worry about whether you're on the right track while they are watching you work. 
 
 This is especially important if you are unsure whether you're on the right track. If you explain yourself, they would usually say something to indicate whether you're on the right track. If they affirm your plan, then great! You don't have to worry about having the wrong approach when you're elaborating the solution. If they dispute it, then at least you didn't waste time further explaining it.
 
@@ -57,17 +59,9 @@ Usually the tutors will ensure that you know the background and the context of t
 
 However, you should try to show them what you know or what you've been thinking first before asking. You would be able to show your thought process (which is ultimately what your tutors want to evaluate in the interview) and the tutors would be able to give you a better answer. 
 
-#### Be thorough
-
-Since you would be stressed out during the interview, it's very easy to commit careless mistakes (copying wrongly, arithemetic errors ...). Taking your time is better than reaching the wrong conclusion and having to backtrack. Be throughough and write down or speak out everything. 
-
 #### Predict what they would ask you
 
-Their first question they ask you might be very easy. While you are answering it, think about the complications they could throw at you. If they were asking about the $$n = 1$$ case, what about $$n = 2, 3 ...$$? Could you figure out a general solution?
-
-#### Don't brute force
-
-It usually doesn't work or they might ask you to stop doing it. 
+Their first question they ask you might be very easy. While you are answering it, think about the complications they could throw at you. If they were asking about the $$n = 1$$ case, what about $$n = 2, 3 ...$$? Could you figure out a general solution? Don't rely on brute force methods. Usually they won't work for larger cases or the tutors would just ask you to generalize the solution.
 
 #### What if the tutors say you're wrong?
 
@@ -79,6 +73,6 @@ Thirdly, think about whether you have miscommunicated. Sometimes the tutors migh
 
 If they still imply that you are wrong, it's very important to be flexible. Don't be fixated at the method that you've been using. Listen to them carefully and give a meaningful response that reflects your understanding of what they've said.  Then recall what questions they've asked you. Simmilar to the MAT, all the subparts of the question are somewhat connected. Try to figure out the connection between them.
 
-#### Generally speaking
+## As a final touch
 
 Don't let university application get into your head too much! Ultimately, mathematics should be the thing that you pursue the most. Don't let your interest into mathematics die out or all would be pointless! 
