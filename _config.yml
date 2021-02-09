@@ -20,7 +20,7 @@
 
 title: Toby Lam's Blog
 email: greenone092@gmail.com
-description: 
+description: On mathematics and tech
 # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://greenone092.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,6 +30,7 @@ github_username:  greenone092
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
