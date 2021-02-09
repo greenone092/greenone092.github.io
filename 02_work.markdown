@@ -2,7 +2,7 @@
 layout: page
 title:  "Self-initiated work"
 permalink: /work/
-
+published: false
 ---
 
 I have done some expository work over the years at a secondary school level, especially during my presidency at my school's mathematics society. Here are some of them and the challenges faced making them.
