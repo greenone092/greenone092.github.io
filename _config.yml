@@ -29,8 +29,6 @@ github_username:  greenone092
 # Build settings
 theme: minima
 plugins:
-  - jekyll-last-modified-at
-  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
