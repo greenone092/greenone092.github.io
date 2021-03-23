@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img style = "padding-left: 10px;" align="right" src="{{site.url}}/download/profile.jpg" width='250' >
+<img style = "padding-left: 10px;" align="right" src="{{site.url}}/download/profile.webp" width='250' >
 
 Hello! I'm Toby Lam, a secondary school student from Hong Kong. 
 
