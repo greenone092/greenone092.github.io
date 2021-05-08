@@ -2,7 +2,7 @@
 layout: page
 title:  "Applying to Oxford Mathematics (Undergraduate)"
 date:   2021-2-05 00:00 +0800
-published: true
+published: false
 ---
 
 I've recently recieved a conditional offer to read mathematics at Balliol College. There are a lot of things I wish I knew sooner and as such I'm gonna share it here. I'm gonna try to exclude some of the most talked over points. 
