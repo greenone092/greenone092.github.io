@@ -2,7 +2,7 @@
 layout: 	page
 title: 		Blog
 published:	true
-permalink:	/redirect/
+permalink:	/redirect
 redirect: 	https://greenone092.github.io/
 
 layout: 	redirect

@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Self-initiated work"
-permalink: /work/
+permalink: /work
 published: false
 ---
 
