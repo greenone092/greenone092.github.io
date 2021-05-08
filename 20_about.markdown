@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 <img style = "padding-left: 10px;" align="right" src="{{site.url}}/download/profile.webp" width='250' >

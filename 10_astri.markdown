@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ASTRI Scheme
-permalink: /astri/
+permalink: /astri
 published: false
 
 ---
