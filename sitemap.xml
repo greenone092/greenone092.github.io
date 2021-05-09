@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/2020/08/11/why-start-a-website.html</loc>
+<lastmod>2020-08-11T01:45:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/08/25/using-zoom-google-meet-with-obs.html</loc>
+<lastmod>2020-08-25T10:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/redirect</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/download/CV.pdf</loc>
+<lastmod>2021-05-08T17:56:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/download/journal_snippet.pdf</loc>
+<lastmod>2021-02-06T10:23:16+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/google736cd24af7b0a6e8.html</loc>
+<lastmod>2021-02-06T10:23:16+08:00</lastmod>
+</url>
+</urlset>
