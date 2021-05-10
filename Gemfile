@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
-gem "minima"
-
 group :jekyll_plugins do
-  gem 'github-pages'
+  gem "minima"
   gem 'jekyll-sitemap'
+  gem "jekyll-assets"
+  gem "jekyll-seo-tag"
+  gem 'kramdown-parser-gfm'
+  gem "sprockets", "~> 3.7"
 end

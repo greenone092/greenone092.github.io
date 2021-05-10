@@ -9,6 +9,3 @@ github_username:  greenone092
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-sitemap
-  
