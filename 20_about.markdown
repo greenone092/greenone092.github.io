@@ -8,9 +8,9 @@ permalink: /about
 
 Hello! I'm Toby Lam, a secondary school student from Hong Kong. 
 
-This website is intended to be a blog and a personal website.
+This website is intended to be a blog and a personal website about mathematics and technology.
 
-Here's my [CV]({{site.url}}/download/CV.pdf) as at September 2020. 
+Here's my [CV]({{site.url}}/download/CV.pdf) as at May 2021. 
 
 You can contact me by sending an email to <greenone092@gmail.com>
 
