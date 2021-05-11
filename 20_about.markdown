@@ -6,7 +6,7 @@ permalink: /about
 
 <img style = "padding-left: 10px;" align="right" src="{{site.url}}/download/profile.webp" width='250' >
 
-Hello! I'm Toby Lam, a secondary school student from Hong Kong. 
+Hi there I'm Toby Lam👋! A secondary school student from Hong Kong. 
 
 This website is intended to be a blog and a personal website about mathematics and technology.
 
