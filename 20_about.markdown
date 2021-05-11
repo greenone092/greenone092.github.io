@@ -12,6 +12,8 @@ This website is intended to be a blog and a personal website about mathematics a
 
 Here's my [CV]({{site.url}}/download/CV.pdf) as at May 2021. 
 
-You can contact me by sending an email to <greenone092@gmail.com>
+You can contact me by sending an [email](mailto:greenone092@gmail.com)
+
+You can also find me on [Github](https://github.com/greenone092)
 
 
