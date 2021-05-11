@@ -3,7 +3,7 @@ layout: 	page
 title: 		Blog
 published:	true
 permalink:	/redirect
-redirect: 	https://tobylam.xyz
+redirect: 	https://www.tobylam.xyz
 
 layout: 	redirect
 ---
