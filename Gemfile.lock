@@ -13,11 +13,13 @@ GEM
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
     fastimage (2.2.3)
+    ffi (1.15.0)
     ffi (1.15.0-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -78,6 +80,8 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     minitest (5.14.4)
+    nokogiri (1.11.3-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.11.3-x64-mingw32)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -103,9 +107,9 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    wdm (0.1.1)
 
 PLATFORMS
+  arm64-darwin-20
   x64-mingw32
 
 DEPENDENCIES
@@ -116,7 +120,6 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-parser-gfm
   sprockets (~> 3.7)
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
-   2.1.4
+   2.2.17
