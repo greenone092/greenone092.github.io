@@ -15,4 +15,4 @@ Usage:
 {% endfor %}
 {% endcapture %}
 
-<img style = "padding: 5px;" src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" align="{{ align }}" width="{{ width }}" height="{{ height }}">
+<img style = "padding: 5px;" src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" align="{{ align }}" sizes="{{ sizes }}">
