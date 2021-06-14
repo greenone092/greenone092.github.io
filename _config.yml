@@ -22,9 +22,9 @@ markdown: kramdown
 responsive_image:
   template: _includes/responsive-image.html
   sizes:
-    - width: 320
-    - width: 480
+    - width: 220
     - width: 640
-    - width: 960
-    - width: 1280
-    - width: 1600
+    - width: 860
+    - width: 1040
+    - width: 1200
+    - width: 1340
