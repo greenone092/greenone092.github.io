@@ -1,1 +1,0 @@
-cd C:\Users\green\Desktop\tobylam.xyz && bundle exec jekyll serve
