@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-{% responsive_image path: download/profile.webp align: "right" width: 200 %}
+{% responsive_image path: download/profile.webp align: "right" width: 250 %}
 
 Hi there I'm Toby Lam! 👋 A secondary school student from Hong Kong. 
 
