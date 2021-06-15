@@ -1,6 +1,30 @@
+<link rel="manifest" href="/manifest.json">
+
+<link rel="apple-touch-icon" href="/assets/images/Lamppost.png">
+
+<meta name="theme-color" content="#223871" >
+
+<script>
+  if ("serviceWorker" in navigator) {
+    if (navigator.serviceWorker.controller) {
+      console.log("An active service worker found, no need to register");
+    } else {
+      // Register the service worker
+      navigator.serviceWorker
+        .register("{{ site.baseurl }}/serviceworker.js", {
+          scope: "."
+        })
+        .then(function (reg) {
+          console.log("Service worker has been registered for scope: " + reg.scope);
+        });
+    }
+  }
+</script>
+
 <!-- Mathjax -->
 {% if page.usemathjax %}
   <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
 {% endif %}
+

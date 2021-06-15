@@ -1,0 +1,25 @@
+{
+    "lang": "en",
+    "dir": "ltr\rtl",
+    "name": "Toby Lam's Blog",
+    "short_name": "Toby Lam's Blog",
+    "icons": [
+      {
+        "src": "\/assets\/images\/Lamppost.png",
+        "sizes": "640x640",
+        "type": "image\/png"
+      },
+      {
+        "src": "\/assets\/images\/maskable_icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "theme_color": "#223871",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "natural"
+  }
+  
