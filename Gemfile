@@ -14,5 +14,6 @@ end
 gem 'kramdown-math-katex'
 gem 'katex'
 gem 'execjs'
+gem 'therubyrhino'
 
 gem "webrick"
