@@ -5,14 +5,13 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
+    duktape (2.6.0.0)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     ffi (1.15.1)
-    ffi (1.15.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.10)
@@ -78,16 +77,11 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    therubyrhino (2.1.2)
-      therubyrhino_jar (>= 1.7.4, < 1.7.9)
-    therubyrhino_jar (1.7.8)
     unicode-display_width (1.7.0)
     webrick (1.7.0)
 
@@ -96,6 +90,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  duktape
   execjs
   jekyll-feed
   jekyll-remote-theme
@@ -106,7 +101,6 @@ DEPENDENCIES
   kramdown-math-katex
   kramdown-parser-gfm
   sprockets (~> 3.7)
-  therubyrhino
   webrick
 
 BUNDLED WITH
