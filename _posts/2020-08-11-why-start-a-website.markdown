@@ -15,7 +15,7 @@ It's becoming increasingly unsustianable to manage my profile across all social 
 
 ## Flexibility
 
-Secondly, it's flexible. The content that I could put here is basically unlimited (except the 1Gb limit due to github pages' restrictions). I could type $$\LaTeX$$ [^mathjax], make a long, organised and categorized series of tutorials and guides... This is just impossible to deliver using any other existing social media sites.
+Secondly, it's flexible. The content that I could put here is basically unlimited (except the 1Gb limit due to github pages' restrictions). I could type $$ \LaTeX $$ [^mathjax], make a long, organised and categorized series of tutorials and guides... This is just impossible to deliver using any other existing social media sites.
 
 ## Portability
 
