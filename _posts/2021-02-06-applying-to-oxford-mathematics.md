@@ -2,7 +2,7 @@
 layout: page
 title:  "Applying to Oxford Mathematics (Undergraduate)"
 date:   2021-2-05 00:00 +0800
-usemathjax: true
+katex: true
 published: false
 
 ---
