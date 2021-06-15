@@ -10,6 +10,9 @@ group :jekyll_plugins do
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
   gem 'jekyll-responsive-image'
   gem 'kramdown-math-katex'
+  gem 'katex'
+  gem 'execjs'
+  gem 'therubyracer'
 end
 
 gem "webrick"
