@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-{% responsive_image path: download/profile.webp align: "right" width: 250 height: 250 alt: "My headshot" %}
+{% responsive_image path: "download/profile.webp" alt: "My headshot" sizes: "(max-width: 562.5px) 40vw,  225px" align: "right" %}
 
 Hi there I'm Toby Lam! 👋 A secondary school student from Hong Kong. 
 

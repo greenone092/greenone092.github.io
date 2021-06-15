@@ -9,9 +9,9 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
   gem 'jekyll-responsive-image'
-  gem 'duktape'
 end
 
+gem 'duktape'
 gem 'katex'
 gem 'execjs'
 gem 'kramdown-math-katex'
