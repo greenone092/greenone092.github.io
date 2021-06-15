@@ -19,7 +19,7 @@ Other than that, you could also read the [UG mathematics handbooks](https://www.
 
 #### Preparation
 
-Doing all the [past papers](https://www.google.com/search?client=firefox-b-d&q=Mathematics+Applitude+Test) is perhaps the best way to prepare. You should do some of them under timed conditions. You should also check out the [MAT livestream](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test/mat-livestream). If you really wanna do more exercise, do the [STEP foundation modules](https://maths.org/step/assignments). They are really fun. 
+Doing all the [past papers](https://www.google.com/search?client=firefox-b-d&q=Mathematics+Applitude+Test) is perhaps the best way to prepare. You should do some of them under timed conditions. You should also check out the [MAT livestream](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test/mat-livestream). If you really wanna do more exercise, do the [STEP foundation modules](https://maths.org/step/assignments). They are really fun and teaches skills and ideas mostly relevant to MAT. 
 
 #### Use the previous subparts
 
