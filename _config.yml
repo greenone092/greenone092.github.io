@@ -35,3 +35,5 @@ responsive_image:
 
 kramdown:
   math_engine: katex
+
+gems: ['jekyll-offline']

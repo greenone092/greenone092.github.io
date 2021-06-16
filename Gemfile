@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
   gem 'jekyll-responsive-image'
+  gem 'jekyll-offline', :git => 'git://github.com/jeremiak/jekyll-offline.git'
 end
 
 gem 'duktape'
