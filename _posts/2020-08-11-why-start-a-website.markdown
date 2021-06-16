@@ -39,4 +39,4 @@ Considering how much better [tobylam.xyz](http://www.tobylam.xyz) sounds compare
 
 Last updated: 2021-05-08
 
-[^mathjax]: Currently I'm using [MathJax](http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html), it supports [a lot of symbols](http://docs.mathjax.org/en/v1.1-latest/tex.html#supported-latex-commands) by default already 
+[^mathjax]: I used to use [MathJax](http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html), but eventually ditched it for [KaTeX](https://katex.org) due to its increased speed. Refer to [this article](https://www.xuningyang.com/2021-01-11-katex-with-jekyll/) for its use in jekyll.
