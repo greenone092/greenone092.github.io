@@ -3,6 +3,10 @@ title: Toby Lam's Blog
 email: greenone092@gmail.com
 description: A blog on mathematics and tech
 
+author:
+  name: Toby Lam
+  email: "greenone092@gmail.com"
+
 baseurl: "" 
 url: "https://www.tobylam.xyz" 
 github_username:  greenone092
@@ -22,12 +26,12 @@ markdown: kramdown
 responsive_image:
   template: _includes/responsive-image.html
   sizes:
-    - width: 220
-    - width: 640
-    - width: 860
-    - width: 1040
-    - width: 1200
-    - width: 1340
+    - width: 190
+    - width: 620
+    - width: 900
+    - width: 1140
+    - width: 1400
+    - width: 1500
 
 kramdown:
   math_engine: katex
