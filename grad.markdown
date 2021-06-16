@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grad
-permalink: {{ site.url }}/grad
+permalink: /grad
 nomenu: true
 ---
 
