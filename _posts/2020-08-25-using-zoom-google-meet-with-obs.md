@@ -50,7 +50,7 @@ Lastly, we need to stream whatever OBS is outputting to Zoom / Google Meet.
 
 ### Cannot find skype NDI source in OBS
 
-When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't show up, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings > calling > advanced > Allow NDI Usage. 
+When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't show up, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings > Calling > Advanced > Allow NDI usage. 
 
 If NDI is already turned on in your skype call and you still couldn't find it. Turn NDI off and on again while you are in the call by going to settings. After you turn it back on, you should be able to select Skype as NDI source.
 
