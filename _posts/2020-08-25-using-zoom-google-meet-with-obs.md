@@ -32,7 +32,7 @@ Just keep clicking next in their installations. You do not need to edit any para
 
 Follow this [video](https://www.youtube.com/watch?v=QPg5IfqAkAI). Rest assured you have already installed all the prerequisites. However, there are some things you should note.
 
-1. As we are trying to use Skype to process our webcam's footage, you could start a call with yourself. To do this, click meet now and start a meeting. This constitudes as an active call even though there's only you in it. Make sure you turn on the video.
+1. Instead of having someone else call you (as shown in the video), you could start a call with yourself. To do this, click meet now and start a meeting. This constitudes as an active call even though there's only you in it. Make sure you turn on the video. Then, you should be able to see footage of your own camera in the NDI source.
 
 2. To change the OBS's output to say a static picture. You create a new scene and add a picture to the source section. Whenever you want to show that picture, you switch to that scene. For more details, you could look at some [OBS tutorials](https://www.youtube.com/watch?v=DTk99mHDX_I)
 
@@ -50,7 +50,7 @@ Lastly, we need to stream whatever OBS is outputting to Zoom / Google Meet.
 
 ### Cannot find skype NDI source in OBS
 
-When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't exist, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings. 
+When you are in the skype call, check whether "Stop NDI" shows up on the upper left corner. If it doesn't show up, it means you have not turned on NDI. You could turn on NDI in the middle of a call by going to settings > calling > advanced > Allow NDI Usage. 
 
 If NDI is already turned on in your skype call and you still couldn't find it. Turn NDI off and on again while you are in the call by going to settings. After you turn it back on, you should be able to select Skype as NDI source.
 
