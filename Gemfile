@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'jekyll'
+
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem "jekyll-seo-tag"
@@ -15,6 +17,6 @@ end
 gem 'duktape'
 gem 'katex'
 gem 'execjs'
-gem 'kramdown-math-katex'
+gem 'kramdown-math-katex' 
 
 gem "webrick"

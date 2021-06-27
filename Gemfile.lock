@@ -102,6 +102,7 @@ PLATFORMS
 DEPENDENCIES
   duktape
   execjs
+  jekyll
   jekyll-feed
   jekyll-offline!
   jekyll-remote-theme
