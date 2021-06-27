@@ -2,7 +2,7 @@
 layout: page
 title: Interests
 permalink: /interests
-published: true
+published: false
 katex: true
 ---
 
