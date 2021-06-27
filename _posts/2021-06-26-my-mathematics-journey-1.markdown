@@ -2,6 +2,7 @@
 layout: post
 title: My Mathematics Journey (Part 1)
 katex: true
+published: false
 ---
 As my public examinations have come to a close, I've decided to reflect upon my learning in mathematics. Inspired by my friend who has done something [simmilar](https://oscarmui.github.io/code.html), I've decided to write a series of blog posts detailing my learning in mathematics.
 
